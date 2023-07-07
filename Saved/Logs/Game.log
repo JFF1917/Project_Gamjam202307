@@ -3676,3 +3676,484 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.07-11.06.09:357][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 5.79 sec)
 [2023.07.07-11.06.09:362][838]AssetCheck: New page: 资产保存：WBP_InteractionTip
 [2023.07.07-11.06.09:362][838]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_InteractionTip.WBP_InteractionTip
+[2023.07.07-11.07.31:756][897]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.07.31:756][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.07.31:768][897]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.07.31:768][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.07.32:814][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.07.32:861][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-11.07.32:864][984]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-11.07.32:864][984]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStartD1C7549C4109DB8A0A991B87A170922F.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-11.07.32:870][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 5.85 sec)
+[2023.07.07-11.07.32:876][984]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-11.07.32:876][984]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-11.07.46:382][579]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.07-11.07.46:386][579]LogContentBundle: [Container: Map_Main] Generating Streaming for 0 Content Bundles.
+[2023.07.07-11.07.46:387][579]LogWorldPartition: Display: GenerateStreaming started...
+[2023.07.07-11.07.46:387][579]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.07.07-11.07.46:387][579]LogWorldPartition: Display: GetPartitionedActors took 10 us (total: 134 us)
+[2023.07.07-11.07.46:387][579]LogWorldPartition: Display: GenerateStreaming took 86 us (total: 1 ms)
+[2023.07.07-11.07.46:388][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.07-11.07.46:388][579]PIE: New page: PIE会话：Map_Main（2023年7月8日 上午3:07:46）
+[2023.07.07-11.07.46:430][579]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Main
+[2023.07.07-11.07.46:432][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002666s)
+[2023.07.07-11.07.46:432][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Main.Map_Main to /Game/Maps/UEDPIE_0_Map_Main.Map_Main (0.002703s)
+[2023.07.07-11.07.46:432][579]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.07.46:433][579]LogAIModule: Creating AISystem for world Map_Main
+[2023.07.07-11.07.46:433][579]LogWorldPartition: ULevel::OnLevelLoaded(Map_Main)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.07.07-11.07.46:433][579]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.07.07-11.07.46:433][579]LogWorldPartition: UWorldPartition::Initialize(Asset=Map_Main, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.07.07-11.07.46:434][579]LogContentBundle: [Container: Map_Main] Creating new contrainer.
+[2023.07.07-11.07.46:434][579]LogWorldPartition: Display: WorldPartition initialize took 506 us (total: 162 ms)
+[2023.07.07-11.07.46:434][579]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2023.07.07-11.07.46:471][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.07.07-11.07.46:473][579]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.07.07-11.07.46:473][579]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.07-11.07.46:473][579]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.07-11.07.46:473][579]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.07-11.07.46:473][579]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.07-11.07.46:473][579]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.07-11.07.46:473][579]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.07-11.07.46:473][579]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.07-11.07.46:473][579]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.07-11.07.46:473][579]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.07-11.07.46:473][579]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.07-11.07.46:473][579]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.07-11.07.46:529][579]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.07-11.07.46:572][579]LogAudioMixer: Display: Using Audio Hardware Device P24A2G (NVIDIA High Definition Audio)
+[2023.07.07-11.07.46:572][579]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.07-11.07.46:572][579]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.07-11.07.46:572][579]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.07-11.07.46:573][579]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.07.07-11.07.46:573][579]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.07.07-11.07.46:574][579]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.07.07-11.07.46:574][579]LogInit: FAudioDevice initialized.
+[2023.07.07-11.07.46:574][579]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.07.07-11.07.46:574][579]LogAudio: Display: Audio Device (ID: 28) registered with world 'Map_Main'.
+[2023.07.07-11.07.46:579][579]LogLoad: Game class is 'MyGameMode_C'
+[2023.07.07-11.07.46:580][579]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 0) at 2023.07.07-19.07.46
+[2023.07.07-11.07.46:580][579]LogWorld: Bringing up level for play took: 0.000757
+[2023.07.07-11.07.46:582][579]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.07.07-11.07.46:583][579]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=540.000 Y=1000.000 Z=90.150
+[2023.07.07-11.07.46:583][579]PIE: 登陆的服务器
+[2023.07.07-11.07.46:584][579]PIE: PIE总开始时间：0.198秒。
+[2023.07.07-11.07.59:869][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.07-11.07.59:869][159]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Main
+[2023.07.07-11.07.59:869][159]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.07.59:869][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.07.59:869][159]LogContentBundle: [Container: Map_Main] Deleting container.
+[2023.07.07-11.07.59:874][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.07-11.07.59:878][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.07.59:911][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.07-11.07.59:911][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.07.07-11.07.59:913][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.07.07-11.07.59:918][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.07-11.07.59:985][160]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.07.07-11.08.51:000][118]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.08.51:001][118]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.08.51:001][118]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.08.51:985][118]LogSlate: Window '选择新控件蓝图的根控件' being destroyed
+[2023.07.07-11.08.51:991][118]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.07.07-11.08.51:998][118]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.07.07-11.08.52:009][119]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.07.07-11.09.39:908][865]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_TargetFile
+[2023.07.07-11.09.40:009][865]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.07.07-11.09.41:971][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.07.07-11.09.43:530][ 93]LogSlate: Window '保存内容' being destroyed
+[2023.07.07-11.09.43:623][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.09.43:675][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_TargetFile" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_TargetFile.uasset" SILENT=true
+[2023.07.07-11.09.43:677][ 93]LogSavePackage: Moving output files for package: /Game/Widget/WBP_TargetFile
+[2023.07.07-11.09.43:677][ 93]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_TargetFileEE46329D4C8EF9106DEFCBBEC3DB36E7.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_TargetFile.uasset'
+[2023.07.07-11.09.43:883][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave took 260 ms (total: 6.11 sec)
+[2023.07.07-11.09.43:888][ 93]AssetCheck: New page: 资产保存：WBP_TargetFile
+[2023.07.07-11.09.43:888][ 93]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_TargetFile.WBP_TargetFile
+[2023.07.07-11.09.45:008][205]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widget/WBP_TargetFile.WBP_TargetFile
+[2023.07.07-11.09.45:008][205]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.09.45:012][205]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.09.45:310][205]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.09.45:310][205]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.09.50:032][763]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/CanvasPanel.h: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/CanvasPanel.h' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.09.57:860][677]BlueprintLog: New page: 编译WBP_TargetFile
+[2023.07.07-11.09.57:917][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.07.07-11.09.58:914][792]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.09.59:047][808]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.09.59:047][808]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.01:144][ 57]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Image.h: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Image.h' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.24:844][851]BlueprintLog: New page: 编译WBP_TargetFile
+[2023.07.07-11.10.24:896][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.07-11.10.25:892][959]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.26:062][979]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.26:062][979]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.52:864][ 14]BlueprintLog: New page: 编译WBP_TargetFile
+[2023.07.07-11.10.52:916][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.07-11.10.54:108][132]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.54:108][132]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.54:108][132]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.56:140][363]LogSlate: Window '取色器' being destroyed
+[2023.07.07-11.10.57:188][485]BlueprintLog: New page: 编译WBP_TargetFile
+[2023.07.07-11.10.57:239][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.07.07-11.10.58:350][607]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.58:350][607]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.10.58:350][607]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.08:169][776]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.08:691][835]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioTextBox/AudioTextBox.uasset: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioTextBox/AudioTextBox.uasset' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.26:651][945]BlueprintLog: New page: 编译WBP_TargetFile
+[2023.07.07-11.11.26:705][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.07.07-11.11.27:791][ 63]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.27:791][ 63]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.27:791][ 63]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.37:052][973]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '䯮 (U+4bee)'
+[2023.07.07-11.11.37:100][973]LogSlate: Took 0.046969 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.07.07-11.11.43:743][740]BlueprintLog: New page: 编译WBP_TargetFile
+[2023.07.07-11.11.43:794][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.07.07-11.11.44:890][858]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.44:890][858]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.44:890][858]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.11.52:044][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.11.52:090][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_TargetFile" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_TargetFile.uasset" SILENT=true
+[2023.07.07-11.11.52:093][692]LogSavePackage: Moving output files for package: /Game/Widget/WBP_TargetFile
+[2023.07.07-11.11.52:093][692]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_TargetFile871023B041100B0FE357F4819F4A50E5.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_TargetFile.uasset'
+[2023.07.07-11.11.52:099][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 6.17 sec)
+[2023.07.07-11.11.52:104][692]AssetCheck: New page: 资产保存：WBP_TargetFile
+[2023.07.07-11.11.52:104][692]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_TargetFile.WBP_TargetFile
+[2023.07.07-11.11.52:935][785]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.11.52:935][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.11.52:941][785]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.11.52:941][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.11.54:566][954]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.11.54:621][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-11.11.54:624][954]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-11.11.54:624][954]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStartFB7BFF7E40572C8A18027F8A07E9531E.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-11.11.54:629][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 6.23 sec)
+[2023.07.07-11.11.54:635][954]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-11.11.54:635][954]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-11.11.57:932][346]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.11.57:932][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.11.57:938][346]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.11.57:938][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.12.32:716][316]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.12.32:717][316]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.12.32:717][316]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.12.38:382][961]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.12.38:442][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.07.07-11.13.00:882][528]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.13.00:933][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.07.07-11.13.24:240][291]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.13.24:289][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.07.07-11.14.08:114][349]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.14.08:164][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.07.07-11.15.02:669][813]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.15.02:718][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.07.07-11.15.12:972][982]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2023.07.07-11.15.12:973][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.15.39:859][177]LogSlate: Window 'BP_Player' being destroyed
+[2023.07.07-11.15.39:866][177]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.15.39:867][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.15.51:556][606]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2023.07.07-11.15.51:556][606]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.15.53:536][701]LogViewport: Scene viewport resized to 1151x691, mode Windowed.
+[2023.07.07-11.16.02:686][346]LogSlate: Window 'BP_Player' being destroyed
+[2023.07.07-11.16.02:699][346]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.16.02:700][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.16.12:508][167]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.16.12:509][167]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.16.12:509][167]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.16.38:483][167]LogSlate: Window '选取父类' being destroyed
+[2023.07.07-11.16.39:873][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.07.07-11.16.40:942][304]LogSlate: Window '保存内容' being destroyed
+[2023.07.07-11.16.41:045][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.16.41:097][304]LogFileHelpers: 没有需要保存的新变更！
+[2023.07.07-11.16.41:098][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Main" FILE="../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.07-11.16.41:130][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.07.07-11.16.41:137][304]LogSavePackage: Moving output files for package: /Game/Maps/Map_Main
+[2023.07.07-11.16.41:137][304]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Map_MainB125072B4D4EBB37C3480680FB2F7F66.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap'
+[2023.07.07-11.16.41:147][304]LogFileHelpers: Saving map 'Map_Main' took 0.050
+[2023.07.07-11.16.41:154][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 6.34 sec)
+[2023.07.07-11.16.41:160][304]AssetCheck: New page: 资产保存：Map_Main
+[2023.07.07-11.16.41:160][304]LogContentValidation: Display: 正在验证/Script/Engine.World /Game/Maps/Map_Main.Map_Main
+[2023.07.07-11.17.51:414][462]BlueprintLog: New page: 折叠到函数
+[2023.07.07-11.18.12:877][946]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.18.12:932][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.07.07-11.18.45:841][714]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.18.45:892][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.07.07-11.18.51:960][374]BlueprintLog: New page: 折叠到函数
+[2023.07.07-11.19.03:726][758]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.19.03:776][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.07.07-11.19.12:291][747]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.19.12:342][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.07-11.19.13:017][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.19.13:060][807]LogFileHelpers: 没有需要保存的新变更！
+[2023.07.07-11.19.13:061][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Main" FILE="../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.07-11.19.13:094][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.07.07-11.19.13:103][807]LogSavePackage: Moving output files for package: /Game/Maps/Map_Main
+[2023.07.07-11.19.13:103][807]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Map_MainE081EE794F36B353F97786AD773865FD.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap'
+[2023.07.07-11.19.13:112][807]LogFileHelpers: Saving map 'Map_Main' took 0.051
+[2023.07.07-11.19.13:118][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 6.44 sec)
+[2023.07.07-11.19.13:125][807]AssetCheck: New page: 资产保存：Map_Main
+[2023.07.07-11.19.13:125][807]LogContentValidation: Display: 正在验证/Script/Engine.World /Game/Maps/Map_Main.Map_Main
+[2023.07.07-11.19.33:366][132]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.19.33:416][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.07.07-11.19.41:829][ 88]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.19.41:881][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.07.07-11.19.47:425][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.07.07-11.19.48:747][708]LogSlate: Window '保存内容' being destroyed
+[2023.07.07-11.19.48:857][708]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.19.48:910][708]LogFileHelpers: 没有需要保存的新变更！
+[2023.07.07-11.19.48:910][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Main" FILE="../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.07-11.19.48:942][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.07.07-11.19.48:950][708]LogSavePackage: Moving output files for package: /Game/Maps/Map_Main
+[2023.07.07-11.19.48:950][708]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Map_Main6399BAD74AE02A88EE20FC838AB6577A.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap'
+[2023.07.07-11.19.48:959][708]LogFileHelpers: Saving map 'Map_Main' took 0.049
+[2023.07.07-11.19.48:965][708]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 6.54 sec)
+[2023.07.07-11.19.48:971][708]AssetCheck: New page: 资产保存：Map_Main
+[2023.07.07-11.19.48:971][708]LogContentValidation: Display: 正在验证/Script/Engine.World /Game/Maps/Map_Main.Map_Main
+[2023.07.07-11.20.11:557][370]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-11.20.11:557][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.20.11:563][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.20.11:866][370]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.20.11:866][370]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.20.42:841][944]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.20.42:894][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.07.07-11.20.44:665][144]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.20.44:716][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.07.07-11.20.53:037][ 82]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.20.53:089][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.07.07-11.20.57:984][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.20.58:042][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-11.20.58:046][637]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-11.20.58:046][637]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStartFC0013164E64CE3024EBC49D61128CCD.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-11.20.58:053][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 6.61 sec)
+[2023.07.07-11.20.58:058][637]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-11.20.58:058][637]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-11.21.12:383][289]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.21.12:439][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.07.07-11.22.16:460][502]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.22.16:462][502]LogBlueprint: Error: [AssetLog] E:\Project\Project_Gamjam202307\Content\Maps\Map_Main.umap: [Compiler] 此蓝图（自身）并非是一个 WBP_GameStart_C，因此 ' 目标 ’ 必须拥有一个连接。
+[2023.07.07-11.22.16:542][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.07.07-11.22.35:299][582]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.22.35:354][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.07.07-11.22.43:377][503]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.22.43:432][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.07.07-11.22.47:938][ 14]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.22.47:992][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.07.07-11.23.35:900][396]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.23.35:956][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.07-11.23.51:319][143]LogEditorTransaction: Undo 将选定节点折叠到单个节点中
+[2023.07.07-11.23.53:834][357]BlueprintLog: New page: 折叠到宏
+[2023.07.07-11.24.10:583][279]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.24.10:639][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.07.07-11.24.30:220][536]BlueprintLog: New page: 编译Map_Main
+[2023.07.07-11.24.30:275][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.07.07-11.24.35:032][ 81]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.07-11.24.35:037][ 81]LogContentBundle: [Container: Map_Main] Generating Streaming for 0 Content Bundles.
+[2023.07.07-11.24.35:037][ 81]LogWorldPartition: Display: GenerateStreaming started...
+[2023.07.07-11.24.35:037][ 81]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.07.07-11.24.35:037][ 81]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 141 us)
+[2023.07.07-11.24.35:037][ 81]LogWorldPartition: Display: GenerateStreaming took 72 us (total: 2 ms)
+[2023.07.07-11.24.35:038][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.07-11.24.35:038][ 81]PIE: New page: PIE会话：Map_Main（2023年7月8日 上午3:24:35）
+[2023.07.07-11.24.35:071][ 81]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Main
+[2023.07.07-11.24.35:074][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002958s)
+[2023.07.07-11.24.35:074][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Main.Map_Main to /Game/Maps/UEDPIE_0_Map_Main.Map_Main (0.002990s)
+[2023.07.07-11.24.35:075][ 81]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.24.35:075][ 81]LogAIModule: Creating AISystem for world Map_Main
+[2023.07.07-11.24.35:075][ 81]LogWorldPartition: ULevel::OnLevelLoaded(Map_Main)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.07.07-11.24.35:075][ 81]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.07.07-11.24.35:075][ 81]LogWorldPartition: UWorldPartition::Initialize(Asset=Map_Main, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.07.07-11.24.35:076][ 81]LogContentBundle: [Container: Map_Main] Creating new contrainer.
+[2023.07.07-11.24.35:076][ 81]LogWorldPartition: Display: WorldPartition initialize took 668 us (total: 163 ms)
+[2023.07.07-11.24.35:076][ 81]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2023.07.07-11.24.35:110][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.07.07-11.24.35:112][ 81]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.07.07-11.24.35:112][ 81]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.07-11.24.35:112][ 81]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.07-11.24.35:112][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.07-11.24.35:112][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.07-11.24.35:112][ 81]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.07-11.24.35:112][ 81]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.07-11.24.35:112][ 81]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.07-11.24.35:112][ 81]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.07-11.24.35:112][ 81]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.07-11.24.35:112][ 81]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.07-11.24.35:112][ 81]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.07-11.24.35:114][ 81]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.07-11.24.35:156][ 81]LogAudioMixer: Display: Using Audio Hardware Device P24A2G (NVIDIA High Definition Audio)
+[2023.07.07-11.24.35:157][ 81]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.07-11.24.35:157][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.07-11.24.35:157][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.07-11.24.35:158][ 81]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.07.07-11.24.35:158][ 81]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.07.07-11.24.35:159][ 81]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.07.07-11.24.35:159][ 81]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.07.07-11.24.35:159][ 81]LogInit: FAudioDevice initialized.
+[2023.07.07-11.24.35:159][ 81]LogAudio: Display: Audio Device (ID: 29) registered with world 'Map_Main'.
+[2023.07.07-11.24.35:161][ 81]LogLoad: Game class is 'MyGameMode_C'
+[2023.07.07-11.24.35:162][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 0) at 2023.07.07-19.24.35
+[2023.07.07-11.24.35:162][ 81]LogWorld: Bringing up level for play took: 0.000610
+[2023.07.07-11.24.35:164][ 81]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.07.07-11.24.35:164][ 81]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=540.000 Y=1000.000 Z=90.150
+[2023.07.07-11.24.35:298][ 81]PIE: 登陆的服务器
+[2023.07.07-11.24.35:299][ 81]PIE: PIE总开始时间：0.263秒。
+[2023.07.07-11.24.40:401][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.07-11.24.40:402][673]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Main
+[2023.07.07-11.24.40:402][673]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.24.40:402][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.24.40:402][673]LogContentBundle: [Container: Map_Main] Deleting container.
+[2023.07.07-11.24.40:407][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.07-11.24.40:411][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.24.40:445][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.07-11.24.40:445][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.07.07-11.24.40:447][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.07.07-11.24.40:452][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.07.07-11.24.40:497][674]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.07.07-11.24.42:438][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.24.42:487][866]LogFileHelpers: 没有需要保存的新变更！
+[2023.07.07-11.24.42:487][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Main" FILE="../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.07-11.24.42:524][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.07.07-11.24.42:534][866]LogSavePackage: Moving output files for package: /Game/Maps/Map_Main
+[2023.07.07-11.24.42:534][866]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Map_Main79B4862A4B5584F385551F80F1901025.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Maps/Map_Main.umap'
+[2023.07.07-11.24.42:543][866]LogFileHelpers: Saving map 'Map_Main' took 0.056
+[2023.07.07-11.24.42:549][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 6.73 sec)
+[2023.07.07-11.24.42:556][866]AssetCheck: New page: 资产保存：Map_Main
+[2023.07.07-11.24.42:556][866]LogContentValidation: Display: 正在验证/Script/Engine.World /Game/Maps/Map_Main.Map_Main
+[2023.07.07-11.24.46:640][333]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.07-11.24.46:644][333]LogContentBundle: [Container: Map_Main] Generating Streaming for 0 Content Bundles.
+[2023.07.07-11.24.46:644][333]LogWorldPartition: Display: GenerateStreaming started...
+[2023.07.07-11.24.46:644][333]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.07.07-11.24.46:644][333]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 145 us)
+[2023.07.07-11.24.46:644][333]LogWorldPartition: Display: GenerateStreaming took 65 us (total: 2 ms)
+[2023.07.07-11.24.46:645][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.07-11.24.46:645][333]PIE: New page: PIE会话：Map_Main（2023年7月8日 上午3:24:46）
+[2023.07.07-11.24.46:645][333]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Main
+[2023.07.07-11.24.46:647][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002783s)
+[2023.07.07-11.24.46:648][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Main.Map_Main to /Game/Maps/UEDPIE_0_Map_Main.Map_Main (0.002806s)
+[2023.07.07-11.24.46:648][333]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.24.46:648][333]LogAIModule: Creating AISystem for world Map_Main
+[2023.07.07-11.24.46:648][333]LogWorldPartition: ULevel::OnLevelLoaded(Map_Main)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.07.07-11.24.46:648][333]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.07.07-11.24.46:648][333]LogWorldPartition: UWorldPartition::Initialize(Asset=Map_Main, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.07.07-11.24.46:649][333]LogContentBundle: [Container: Map_Main] Creating new contrainer.
+[2023.07.07-11.24.46:649][333]LogWorldPartition: Display: WorldPartition initialize took 795 us (total: 164 ms)
+[2023.07.07-11.24.46:649][333]LogPlayLevel: PIE: World Init took: (0.001611s)
+[2023.07.07-11.24.46:681][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.07.07-11.24.46:683][333]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.07.07-11.24.46:683][333]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.07-11.24.46:683][333]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.07-11.24.46:683][333]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.07-11.24.46:683][333]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.07-11.24.46:683][333]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.07-11.24.46:683][333]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.07-11.24.46:683][333]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.07-11.24.46:683][333]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.07-11.24.46:683][333]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.07-11.24.46:683][333]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.07-11.24.46:683][333]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.07-11.24.46:685][333]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.07-11.24.46:725][333]LogAudioMixer: Display: Using Audio Hardware Device P24A2G (NVIDIA High Definition Audio)
+[2023.07.07-11.24.46:725][333]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.07-11.24.46:725][333]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.07-11.24.46:725][333]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.07-11.24.46:726][333]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.07.07-11.24.46:726][333]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.07.07-11.24.46:727][333]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.07.07-11.24.46:727][333]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.07.07-11.24.46:727][333]LogInit: FAudioDevice initialized.
+[2023.07.07-11.24.46:727][333]LogAudio: Display: Audio Device (ID: 30) registered with world 'Map_Main'.
+[2023.07.07-11.24.46:730][333]LogLoad: Game class is 'MyGameMode_C'
+[2023.07.07-11.24.46:730][333]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 0) at 2023.07.07-19.24.46
+[2023.07.07-11.24.46:731][333]LogWorld: Bringing up level for play took: 0.000543
+[2023.07.07-11.24.46:732][333]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.07.07-11.24.46:733][333]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=540.000 Y=1000.000 Z=90.150
+[2023.07.07-11.24.46:734][333]PIE: 登陆的服务器
+[2023.07.07-11.24.46:734][333]PIE: PIE总开始时间：0.091秒。
+[2023.07.07-11.24.47:960][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.07-11.24.47:960][451]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Main
+[2023.07.07-11.24.47:981][451]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-11.24.47:981][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.24.47:981][451]LogContentBundle: [Container: Map_Main] Deleting container.
+[2023.07.07-11.24.47:986][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.07-11.24.47:990][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-11.24.48:024][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.07-11.24.48:025][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.07.07-11.24.48:026][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.07.07-11.24.48:031][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.07.07-11.24.48:103][452]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.07.07-11.25.28:596][216]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.25.28:596][216]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.25.28:596][216]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.25.29:486][216]LogSlate: Window '选取父类' being destroyed
+[2023.07.07-11.25.29:493][216]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.07.07-11.25.29:499][216]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.07.07-11.25.29:521][218]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.07.07-11.25.54:130][152]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ActorBase
+[2023.07.07-11.25.54:220][152]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.07.07-11.25.55:506][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.07.07-11.25.56:397][296]LogSlate: Window '保存内容' being destroyed
+[2023.07.07-11.25.56:500][296]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.25.56:552][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor/BP_ActorBase" FILE="../../../../../Project/Project_Gamjam202307/Content/Actor/BP_ActorBase.uasset" SILENT=true
+[2023.07.07-11.25.56:553][296]LogSavePackage: Moving output files for package: /Game/Actor/BP_ActorBase
+[2023.07.07-11.25.56:553][296]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/BP_ActorBaseA122153749A0A73A46B8C680EE1DF449.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Actor/BP_ActorBase.uasset'
+[2023.07.07-11.25.56:780][296]LogFileHelpers: InternalPromptForCheckoutAndSave took 279 ms (total: 7.01 sec)
+[2023.07.07-11.25.56:785][296]AssetCheck: New page: 资产保存：BP_ActorBase
+[2023.07.07-11.25.56:785][296]LogContentValidation: Display: 正在验证/Script/Engine.Blueprint /Game/Actor/BP_ActorBase.BP_ActorBase
+[2023.07.07-11.25.57:789][411]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actor/BP_ActorBase.BP_ActorBase
+[2023.07.07-11.25.57:789][411]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.25.58:213][411]LogViewport: Scene viewport resized to 1151x693, mode Windowed.
+[2023.07.07-11.27.28:898][536]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.27.28:954][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.07.07-11.27.47:137][937]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.27.47:191][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.07.07-11.27.54:845][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.27.54:897][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor/BP_ActorBase" FILE="../../../../../Project/Project_Gamjam202307/Content/Actor/BP_ActorBase.uasset" SILENT=true
+[2023.07.07-11.27.54:899][521]LogSavePackage: Moving output files for package: /Game/Actor/BP_ActorBase
+[2023.07.07-11.27.54:899][521]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/BP_ActorBase7FD5D5E7400C6D0AB2D8D7AFE9F80887.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Actor/BP_ActorBase.uasset'
+[2023.07.07-11.27.54:907][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 7.07 sec)
+[2023.07.07-11.27.54:913][521]AssetCheck: New page: 资产保存：BP_ActorBase
+[2023.07.07-11.27.54:913][521]LogContentValidation: Display: 正在验证/Script/Engine.Blueprint /Game/Actor/BP_ActorBase.BP_ActorBase
+[2023.07.07-11.28.10:233][726]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.28.10:298][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.07.07-11.28.47:665][718]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.28.47:722][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.07.07-11.28.50:865][967]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.28.50:919][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.07.07-11.28.56:855][442]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.28.56:909][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.07-11.29.07:871][347]LogDerivedDataCache: C:/Users/GT-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.093 and deleted 0 files with total size 0 MiB. Scanned 5328 files in 5266 folders with total size 128 MiB.
+[2023.07.07-11.29.20:202][345]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.29.20:257][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: ================================================
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Total job queries 150, among them cache hits 16 (10.67%)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Tracking 126 distinct input hashes that result in 100 distinct outputs (79.37%)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: RAM used: 1.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Shaders Compiled: 19
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Jobs assigned 27, completed 19 (70.37%)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Average time worker was idle: 2735.21 s
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Time job spent in pending queue: average 0.26 s, longest 2.94 s
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Job execution time: average 0.89 s, max 2.92 s
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Job life time (pending + execution): average 0.94 s, max 2.98
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.18 s
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Jobs were issued in 27 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Average processing rate: 3.07 jobs/sec
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Total thread time: 7.88 s
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Total thread preprocess time: 0.66 s
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Percentage time preprocessing: 8.43%
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Effective parallelization: 1.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.54 sec, max 0.59 sec, min 0.49 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.49 sec, max 0.52 sec, min 0.47 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.44 sec, max 0.46 sec, min 0.43 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    5 times, average 0.31 sec, max 0.38 sec, min 0.27 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.41% of total time (compiled    4 times, average 0.54 sec, max 0.59 sec, min 0.49 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.09% of total time (compiled    4 times, average 0.49 sec, max 0.52 sec, min 0.47 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                                 FLumenCardVS - 22.45% of total time (compiled    4 times, average 0.44 sec, max 0.46 sec, min 0.43 sec)
+[2023.07.07-11.29.47:798][594]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 19.50% of total time (compiled    5 times, average 0.31 sec, max 0.38 sec, min 0.27 sec)
+[2023.07.07-11.29.47:799][594]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 5.54% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2023.07.07-11.29.47:799][594]LogShaderCompilers: Display: ================================================
+[2023.07.07-11.29.50:385][752]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.29.50:440][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.07.07-11.31.13:009][673]BlueprintLog: New page: 编译BP_ActorBase
+[2023.07.07-11.31.13:065][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
