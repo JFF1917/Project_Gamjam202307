@@ -3471,3 +3471,208 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.07-10.54.51:661][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 4.79 sec)
 [2023.07.07-10.54.51:665][605]AssetCheck: New page: 资产保存：Map_Main
 [2023.07.07-10.54.51:665][605]LogContentValidation: Display: 正在验证/Script/Engine.World /Game/Maps/Map_Main.Map_Main
+[2023.07.07-10.56.24:930][ 49]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-10.56.24:931][ 49]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-10.56.24:931][ 49]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-10.56.29:073][ 49]LogSlate: Window '选择新控件蓝图的根控件' being destroyed
+[2023.07.07-10.56.29:089][ 49]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.07.07-10.56.29:094][ 49]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.07.07-10.56.29:120][ 51]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.07.07-10.56.36:658][934]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_GameStart
+[2023.07.07-10.56.36:836][934]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.07.07-10.56.38:222][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.07.07-10.56.39:041][ 92]LogSlate: Window '保存内容' being destroyed
+[2023.07.07-10.56.39:139][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-10.56.39:192][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-10.56.39:195][ 92]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-10.56.39:195][ 92]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStartCE981C2F40BB74CD080ADC814B6A39CF.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-10.56.39:403][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 263 ms (total: 5.06 sec)
+[2023.07.07-10.56.39:406][ 92]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-10.56.39:406][ 92]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-10.56.40:262][179]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-10.56.40:263][179]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-10.56.40:269][179]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-10.56.40:295][179]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+空格键]
+[2023.07.07-10.56.40:945][179]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-10.56.40:945][179]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-10.56.42:383][179]LogSlateStyle: Warning: 缺失来自“CoreStyle”的资源 样式：“未能找到Slate颜色“Foreground”。”
+[2023.07.07-10.56.42:394][179]LogSlate: Took 0.010735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.07.07-10.56.51:938][977]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/CanvasPanel.h: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/CanvasPanel.h' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.22:911][134]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-10.57.23:069][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.07.07-10.57.24:024][223]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.24:221][242]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.24:221][242]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.29:102][748]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Image.h: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Image.h' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.45:450][525]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-10.57.45:503][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.07.07-10.57.46:510][623]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.46:624][634]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.46:624][634]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.58:669][479]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-10.57.58:715][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.07-10.57.59:808][568]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.59:808][568]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.57.59:808][568]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.58.15:421][144]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-10.58.15:476][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-10.58.15:478][144]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-10.58.15:478][144]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStartFC6F6C244ECFF7D2578952BBE278BB49.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-10.58.15:485][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 5.12 sec)
+[2023.07.07-10.58.15:490][144]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-10.58.15:490][144]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-10.58.23:472][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-10.58.23:522][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-10.58.23:524][907]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-10.58.23:524][907]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStart314B3A7D4194B36BBE6E7FA41FF78E87.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-10.58.23:532][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 5.18 sec)
+[2023.07.07-10.58.23:537][907]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-10.58.23:537][907]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-10.58.36:672][979]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-10.58.36:720][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.07.07-10.58.37:835][ 57]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.58.37:835][ 57]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.58.37:835][ 57]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-10.58.53:376][341]LogSlate: Window 'WBP_GameStart' being destroyed
+[2023.07.07-11.00.07:254][ 95]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Button.h: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Button.h' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.07:254][ 95]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioButtonMatrix: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioButtonMatrix' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.07:254][ 95]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioButtonToggle/AudioButtonToggle.uasset: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioButtonToggle/AudioButtonToggle.uasset' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.25:833][130]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.00.25:881][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.07.07-11.00.26:945][240]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.26:945][240]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.27:029][250]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.29:482][529]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.29:500][531]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioTextBox/AudioTextBox.uasset: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content/AudioTextBox/AudioTextBox.uasset' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.00.59:185][  1]LogSlate: Window '取色器' being destroyed
+[2023.07.07-11.01.00:358][137]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.01.00:392][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.07-11.01.01:491][260]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.01:492][260]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.01:492][260]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.22:326][666]LogSlate: Window '取色器' being destroyed
+[2023.07.07-11.01.30:161][575]LogSlate: Window '取色器' being destroyed
+[2023.07.07-11.01.31:759][762]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.01.31:793][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.07-11.01.32:904][875]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.32:904][875]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.32:904][875]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.44:784][267]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.01.44:817][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.07.07-11.01.45:930][385]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.45:930][385]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.45:930][385]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.01.51:291][998]SourceControl: Error: fatal: Invalid path 'E:/Unreal/UE_5.1/Engine/Content/UMG': No such file or directory
+[2023.07.07-11.01.55:303][335]LogEditorTransaction: Undo 拖放控件
+[2023.07.07-11.02.07:242][492]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.02.07:301][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.07.07-11.02.08:399][576]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.08:400][576]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.08:400][576]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.27:198][757]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.02.27:233][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.07-11.02.28:342][869]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.28:342][869]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.28:342][869]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.30:831][144]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.02.30:892][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-11.02.30:895][144]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-11.02.30:895][144]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStart754EEC2743193454DBA58DA4317D680C.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-11.02.30:902][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 5.25 sec)
+[2023.07.07-11.02.30:909][144]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-11.02.30:909][144]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-11.02.32:914][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.02.32:992][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-11.02.32:995][358]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-11.02.32:995][358]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStart8D51FB8E4F4582961A6AA6923CFEF784.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-11.02.33:003][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 5.34 sec)
+[2023.07.07-11.02.33:009][358]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-11.02.33:009][358]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-11.02.40:790][275]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.02.40:839][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.07.07-11.02.41:926][396]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.41:926][396]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.41:926][396]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.02.46:878][968]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.02.46:912][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.07.07-11.02.55:635][961]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.02.55:668][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.07-11.02.58:200][239]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.02.58:200][239]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.03.04:575][966]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.03.04:575][966]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.03.30:161][963]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.03.30:197][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.07.07-11.03.41:177][255]BlueprintLog: New page: 编译WBP_GameStart
+[2023.07.07-11.03.41:212][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.07.07-11.03.56:372][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.07.07-11.03.57:435][966]LogSlate: Window '保存内容' being destroyed
+[2023.07.07-11.03.57:556][966]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.03.57:618][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_GameStart" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset" SILENT=true
+[2023.07.07-11.03.57:621][966]LogSavePackage: Moving output files for package: /Game/Widget/WBP_GameStart
+[2023.07.07-11.03.57:622][966]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_GameStartCB103E1B440F932A88AE238EDBA287CF.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_GameStart.uasset'
+[2023.07.07-11.03.57:628][966]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 5.41 sec)
+[2023.07.07-11.03.57:633][966]AssetCheck: New page: 资产保存：WBP_GameStart
+[2023.07.07-11.03.57:633][966]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_GameStart.WBP_GameStart
+[2023.07.07-11.04.05:726][884]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.04.05:727][884]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.04.05:727][884]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.07-11.04.06:634][884]LogSlate: Window '选取父类' being destroyed
+[2023.07.07-11.04.10:442][ 99]LogSlate: Window '选择新控件蓝图的根控件' being destroyed
+[2023.07.07-11.04.10:449][ 99]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.07.07-11.04.10:454][ 99]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.07.07-11.04.10:466][100]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.07.07-11.04.26:496][ 19]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_InteractionTip
+[2023.07.07-11.04.26:583][ 19]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.07.07-11.04.28:134][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.07.07-11.04.29:073][197]LogSlate: Window '保存内容' being destroyed
+[2023.07.07-11.04.29:178][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.04.29:217][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_InteractionTip" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_InteractionTip.uasset" SILENT=true
+[2023.07.07-11.04.29:219][197]LogSavePackage: Moving output files for package: /Game/Widget/WBP_InteractionTip
+[2023.07.07-11.04.29:219][197]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_InteractionTip8CD6252D4A7A2086F7FCA4A2EF684B62.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_InteractionTip.uasset'
+[2023.07.07-11.04.29:427][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 249 ms (total: 5.66 sec)
+[2023.07.07-11.04.29:433][197]AssetCheck: New page: 资产保存：WBP_InteractionTip
+[2023.07.07-11.04.29:433][197]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_InteractionTip.WBP_InteractionTip
+[2023.07.07-11.04.30:236][286]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widget/WBP_InteractionTip.WBP_InteractionTip
+[2023.07.07-11.04.30:236][286]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.04.30:241][286]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.07-11.04.30:568][286]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.04.30:568][286]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2023.07.07-11.04.34:159][712]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.04.37:960][158]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/CanvasPanel.h: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/CanvasPanel.h' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.04.51:885][791]BlueprintLog: New page: 编译WBP_InteractionTip
+[2023.07.07-11.04.51:936][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.07-11.04.52:929][901]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.04.53:072][918]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.04.53:072][918]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.00:229][764]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Image.h: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components/Image.h' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.11:517][ 73]BlueprintLog: New page: 编译WBP_InteractionTip
+[2023.07.07-11.05.11:568][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.07.07-11.05.12:570][182]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.12:723][200]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.12:724][200]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.17:291][721]LogSlate: Window '取色器' being destroyed
+[2023.07.07-11.05.18:394][849]BlueprintLog: New page: 编译WBP_InteractionTip
+[2023.07.07-11.05.18:445][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.07.07-11.05.19:535][969]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.19:535][969]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.19:535][969]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.05.43:958][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.05.44:014][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_InteractionTip" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_InteractionTip.uasset" SILENT=true
+[2023.07.07-11.05.44:017][868]LogSavePackage: Moving output files for package: /Game/Widget/WBP_InteractionTip
+[2023.07.07-11.05.44:017][868]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_InteractionTipCDB1D4DC445CB31DB37ACF8A13854B0F.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_InteractionTip.uasset'
+[2023.07.07-11.05.44:025][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 5.73 sec)
+[2023.07.07-11.05.44:030][868]AssetCheck: New page: 资产保存：WBP_InteractionTip
+[2023.07.07-11.05.44:030][868]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_InteractionTip.WBP_InteractionTip
+[2023.07.07-11.06.03:526][182]BlueprintLog: New page: 编译WBP_InteractionTip
+[2023.07.07-11.06.03:579][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.07-11.06.04:663][301]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Editor/UMGEditor/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.06.04:663][301]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI: 'E:/Unreal/UE_5.1/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.06.04:663][301]SourceControl: fatal: E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components: 'E:/Unreal/UE_5.1/Engine/Source/Runtime/UMG/Public/Components' is outside repository at 'E:/Project/Project_Gamjam202307'
+[2023.07.07-11.06.09:291][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-11.06.09:347][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_InteractionTip" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_InteractionTip.uasset" SILENT=true
+[2023.07.07-11.06.09:349][838]LogSavePackage: Moving output files for package: /Game/Widget/WBP_InteractionTip
+[2023.07.07-11.06.09:350][838]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_InteractionTipA3674BD2414FA3448DF3A1889D416062.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_InteractionTip.uasset'
+[2023.07.07-11.06.09:357][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 5.79 sec)
+[2023.07.07-11.06.09:362][838]AssetCheck: New page: 资产保存：WBP_InteractionTip
+[2023.07.07-11.06.09:362][838]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_InteractionTip.WBP_InteractionTip
