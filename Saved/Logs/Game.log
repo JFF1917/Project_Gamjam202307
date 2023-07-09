@@ -2038,3 +2038,466 @@ Referencers of World /Game/Maps/Map_Main.Map_Main:
 [2023.07.09-11.00.19:595][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.5 sec (total: 23.1 sec)
 [2023.07.09-11.00.21:971][925]LogSlate: Window '消息日志' being destroyed
 [2023.07.09-11.00.21:975][925]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.01.17:084][404]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.01.17:115][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset" SILENT=true
+[2023.07.09-11.01.17:141][404]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.01.17:264][404]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.01.17:264][404]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.01.17:264][404]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.01.17:264][404]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.01.17:264][404]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.01.17:264][404]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.01.17:264][404]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.01.17:390][404]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.01.17:390][404]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.01.17:390][404]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.01.17:390][404]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.01.17:390][404]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.01.17:390][404]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.01.19:554][404]LogSlate: Window '消息' being destroyed
+[2023.07.09-11.01.19:557][404]Message dialog closed, result: Cancel, title: 消息, text: 无法保存资产“/Game/Player/BP_Player”（BP_Player.uasset）。
+
+取消：停止保存所有资产并返回编辑器。
+重试：尝试再次保存资产。
+继续：仅跳过保存该资产。
+[2023.07.09-11.01.19:563][404]EditorErrors: New page: 保存输出
+[2023.07.09-11.01.19:563][404]EditorErrors: Warning: Can't save ../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.01.19:620][404]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.53 sec (total: 25.6 sec)
+[2023.07.09-11.01.21:119][574]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.01.21:122][574]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2238A24B-42CC-1DFB-71BC-66B79BDBE8D5%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=3403aab04931e7ef372ae6974f828f82%7Cfc2589bce9ea49c58d0e7cef48500332%7Cd20aea7c-a501-411f-89bc-726865b37e24&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: request failed, libcurl error: 35 (SSL connect error)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 0 (Connection 21 seems to be dead)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 1 (Closing connection 21)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 3 (Hostname in DNS cache was stale, zapped)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 4 (  Trying 127.0.0.1:7890...)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 5 (Connected to 127.0.0.1 (127.0.0.1) port 7890 (#22))
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 6 (allocate connect buffer)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 7 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 8 (Proxy replied 200 to CONNECT request)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 9 (CONNECT phase completed)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 10 (ALPN: offers http/1.1)
+[2023.07.09-11.02.18:222][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 11 (SSL re-using session ID)
+[2023.07.09-11.02.18:223][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2023.07.09-11.02.18:223][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 13 (OpenSSL SSL_connect: Connection was reset in connection to datarouter.ol.epicgames.com:443 )
+[2023.07.09-11.02.18:223][333]LogHttp: Warning: 000008A5A5CFB400: libcurl info message cache 14 (Closing connection 22)
+[2023.07.09-11.02.18:223][333]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2238A24B-42CC-1DFB-71BC-66B79BDBE8D5%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=3403aab04931e7ef372ae6974f828f82%7Cfc2589bce9ea49c58d0e7cef48500332%7Cd20aea7c-a501-411f-89bc-726865b37e24&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.07.09-11.02.25:981][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.07.09-11.02.25:987][256]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/Map_Main/A/WP/KFRFDI1RMTG4MC0D4ZX9J7_Auto1
+[2023.07.09-11.02.25:987][256]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/KFRFDI1RMTG4MC0D4ZX9J7_Auto1A30CBCA84806F4324E215F8355339C56.tmp' to '../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/__ExternalActors__/Maps/Map_Main/A/WP/KFRFDI1RMTG4MC0D4ZX9J7_Auto1.uasset'
+[2023.07.09-11.02.25:988][256]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/Map_Main/8/H6/X52QG8Q42MZUQQT78MQH5N_Auto1
+[2023.07.09-11.02.25:988][256]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/X52QG8Q42MZUQQT78MQH5N_Auto1EF8932AE4A27DEDF181BA488FA13C3CE.tmp' to '../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/__ExternalActors__/Maps/Map_Main/8/H6/X52QG8Q42MZUQQT78MQH5N_Auto1.uasset'
+[2023.07.09-11.02.25:989][256]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/Map_Main/A/DI/JS3H26DGWT0ASKT37O1HJP_Auto1
+[2023.07.09-11.02.25:989][256]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/JS3H26DGWT0ASKT37O1HJP_Auto1A657B07D4AD36ED9052A3D880C7C76D3.tmp' to '../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/__ExternalActors__/Maps/Map_Main/A/DI/JS3H26DGWT0ASKT37O1HJP_Auto1.uasset'
+[2023.07.09-11.02.26:004][256]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/Map_Main/2/KT/01MER5ND7UE90NVFZDDK1E_Auto1
+[2023.07.09-11.02.26:004][256]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/01MER5ND7UE90NVFZDDK1E_Auto1EE59C68A4A86C1C1965A80B9B2CF9B5D.tmp' to '../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/__ExternalActors__/Maps/Map_Main/2/KT/01MER5ND7UE90NVFZDDK1E_Auto1.uasset'
+[2023.07.09-11.02.26:006][256]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/Map_Main/7/R1/I8PNHNAB2WUCIAMMXQSV3B_Auto1
+[2023.07.09-11.02.26:006][256]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/I8PNHNAB2WUCIAMMXQSV3B_Auto13F2E409F44093A23D3458E85E108B3F4.tmp' to '../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/__ExternalActors__/Maps/Map_Main/7/R1/I8PNHNAB2WUCIAMMXQSV3B_Auto1.uasset'
+[2023.07.09-11.02.26:007][256]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Map_Main' took 0.058
+[2023.07.09-11.02.26:007][256]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.058
+[2023.07.09-11.02.26:007][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actor/NPC/BP_NPC] ([2] browsable assets)...
+[2023.07.09-11.02.26:007][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actor/NPC/BP_NPC]
+[2023.07.09-11.02.26:007][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor/NPC/BP_NPC" FILE="../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/Actor/NPC/BP_NPC_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.07.09-11.02.26:014][256]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Actor/NPC/BP_NPC_Auto1
+[2023.07.09-11.02.26:014][256]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/BP_NPC_Auto16B556FF24AF4332C4C401187258ACF9B.tmp' to '../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/Actor/NPC/BP_NPC_Auto1.uasset'
+[2023.07.09-11.02.26:015][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2023.07.09-11.02.26:015][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2023.07.09-11.02.26:015][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/Player/BP_Player_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.07.09-11.02.26:041][256]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.02.26:163][256]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.02.26:163][256]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.02.26:163][256]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.02.26:163][256]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.02.26:163][256]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.02.26:163][256]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.02.26:163][256]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.02.26:290][256]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.02.26:290][256]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.02.26:290][256]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.02.26:290][256]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.02.26:290][256]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.02.26:290][256]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.02.26:290][256]Warning: Can't save ../../../../../Project/Project_Gamjam202307/Saved/Autosaves/Game/Player/BP_Player_Auto1.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.03.50:377][576]SourceControl: 源码管理已禁用
+[2023.07.09-11.03.50:377][576]LogSlate: Window '源码管理登陆' being destroyed
+[2023.07.09-11.03.55:359][156]LogSlate: Window '源码管理登陆' being destroyed
+[2023.07.09-11.03.56:330][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.07.09-11.03.57:467][267]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.03.57:472][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.03.57:513][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor/NPC/BP_NPC" FILE="../../../../../Project/Project_Gamjam202307/Content/Actor/NPC/BP_NPC.uasset" SILENT=true
+[2023.07.09-11.03.57:520][267]LogSavePackage: Moving output files for package: /Game/Actor/NPC/BP_NPC
+[2023.07.09-11.03.57:521][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/BP_NPC7A6EE20D4A17AFEB5B64B1AF895219D9.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Actor/NPC/BP_NPC.uasset'
+[2023.07.09-11.03.57:522][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/A/WP/KFRFDI1RMTG4MC0D4ZX9J7
+[2023.07.09-11.03.57:522][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/KFRFDI1RMTG4MC0D4ZX9J7C7E0C15349F76E163B1012ADB9DF611D.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/A/WP/KFRFDI1RMTG4MC0D4ZX9J7.uasset'
+[2023.07.09-11.03.57:524][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/8/H6/X52QG8Q42MZUQQT78MQH5N
+[2023.07.09-11.03.57:524][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/X52QG8Q42MZUQQT78MQH5N1AE0049942AE0BB6CF050696928F1035.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/8/H6/X52QG8Q42MZUQQT78MQH5N.uasset'
+[2023.07.09-11.03.57:526][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/A/DI/JS3H26DGWT0ASKT37O1HJP
+[2023.07.09-11.03.57:526][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/JS3H26DGWT0ASKT37O1HJP855DF4F649B39B9284A2358699177CB3.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/A/DI/JS3H26DGWT0ASKT37O1HJP.uasset'
+[2023.07.09-11.03.57:527][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/2/KT/01MER5ND7UE90NVFZDDK1E
+[2023.07.09-11.03.57:527][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/01MER5ND7UE90NVFZDDK1E3A4FB87A4CC2EA62C9F10CA0DB400BA5.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/2/KT/01MER5ND7UE90NVFZDDK1E.uasset'
+[2023.07.09-11.03.57:529][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/7/R1/I8PNHNAB2WUCIAMMXQSV3B
+[2023.07.09-11.03.57:529][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/I8PNHNAB2WUCIAMMXQSV3B116EDFDE496E6C03976D038ACE253F7D.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/7/R1/I8PNHNAB2WUCIAMMXQSV3B.uasset'
+[2023.07.09-11.03.57:530][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset" SILENT=true
+[2023.07.09-11.03.57:555][267]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.03.57:678][267]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.03.57:678][267]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.03.57:678][267]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.03.57:678][267]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.03.57:678][267]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.03.57:678][267]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.03.57:678][267]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.03.57:806][267]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.03.57:806][267]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.03.57:806][267]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.03.57:806][267]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.03.57:806][267]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.03.57:806][267]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.04.01:828][267]LogSlate: Window '消息' being destroyed
+[2023.07.09-11.04.01:831][267]Message dialog closed, result: Continue, title: 消息, text: 无法保存资产“/Game/Player/BP_Player”（BP_Player.uasset）。
+
+取消：停止保存所有资产并返回编辑器。
+重试：尝试再次保存资产。
+继续：仅跳过保存该资产。
+[2023.07.09-11.04.01:832][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DataTable/F_Dialog" FILE="../../../../../Project/Project_Gamjam202307/Content/DataTable/F_Dialog.uasset" SILENT=true
+[2023.07.09-11.04.01:833][267]LogSavePackage: Moving output files for package: /Game/DataTable/F_Dialog
+[2023.07.09-11.04.01:833][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/F_DialogF06A78AE41344D655D6EE78602939299.tmp' to '../../../../../Project/Project_Gamjam202307/Content/DataTable/F_Dialog.uasset'
+[2023.07.09-11.04.01:837][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/WBP_TargetFile" FILE="../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_TargetFile.uasset" SILENT=true
+[2023.07.09-11.04.01:843][267]LogSavePackage: Moving output files for package: /Game/Widget/WBP_TargetFile
+[2023.07.09-11.04.01:843][267]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WBP_TargetFile67ED553640D9E7D260806E8686FDFF85.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Widget/WBP_TargetFile.uasset'
+[2023.07.09-11.04.01:849][267]EditorErrors: New page: 保存输出
+[2023.07.09-11.04.01:849][267]EditorErrors: Warning: Can't save ../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.04.03:583][267]LogSlate: Window '保存包失败' being destroyed
+[2023.07.09-11.04.03:586][267]Message dialog closed, result: Ok, title: 保存包失败, text: 不能正确保存以下资产：
+/Game/Player/BP_Player
+[2023.07.09-11.04.03:586][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.11 sec (total: 31.7 sec)
+[2023.07.09-11.04.03:594][267]AssetCheck: New page: 资产保存：多个资产
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Script/Engine.UserDefinedStruct /Game/DataTable/F_Dialog.F_Dialog
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/Widget/WBP_TargetFile.WBP_TargetFile
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Script/Engine.Blueprint /Game/Actor/NPC/BP_NPC.BP_NPC
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Game/Actor/NPC/BP_NPC_RedRock_2.BP_NPC_RedRock_2_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_NPC_RedRock_2_C_UAID_A8A159B5737F1C9401_1580541377
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Game/Actor/NPC/BP_NPC_RedRock_1.BP_NPC_RedRock_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_NPC_RedRock_1_C_UAID_A8A159B5737F189401_1222252672
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Game/Actor/NPC/BP_NPC_MadamE_2.BP_NPC_MadamE_2_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_NPC_MadamE_2_C_UAID_A8A159B5737F1C9401_1690611378
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Game/Actor/NPC/BP_NPC_MadamE_1.BP_NPC_MadamE_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143
+[2023.07.09-11.04.03:594][267]LogContentValidation: Display: 正在验证/Game/Player/BP_Player.BP_Player_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Player_C_UAID_A8A159B5737F7A9301_1575089863
+[2023.07.09-11.04.04:924][405]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.04.04:928][405]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.04.39:386][796]LogContentBrowser: Deferred new asset file creation: BP_Player1
+[2023.07.09-11.04.39:390][796]LogContentBrowser: Creating deferred item: BP_Player1
+[2023.07.09-11.04.39:441][797]LogContentBrowser: Renaming the item being created (Deferred Item: BP_Player1).
+[2023.07.09-11.04.42:591][175]LogContentBrowser: Attempting asset rename: BP_Player1 -> BP_Player1
+[2023.07.09-11.04.42:657][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.07.09-11.04.42:690][175]LogContentBrowser: End creating deferred item BP_Player1
+[2023.07.09-11.04.44:351][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.07.09-11.04.45:913][367]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.04.45:917][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.04.45:961][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset" SILENT=true
+[2023.07.09-11.04.45:987][367]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.04.46:111][367]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.04.46:111][367]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.04.46:111][367]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.04.46:111][367]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.04.46:111][367]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.04.46:111][367]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.04.46:111][367]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.04.46:240][367]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.04.46:240][367]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.04.46:240][367]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.04.46:240][367]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.04.46:240][367]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.04.46:240][367]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.04.50:204][367]LogSlate: Window '消息' being destroyed
+[2023.07.09-11.04.50:207][367]Message dialog closed, result: Cancel, title: 消息, text: 无法保存资产“/Game/Player/BP_Player”（BP_Player.uasset）。
+
+取消：停止保存所有资产并返回编辑器。
+重试：尝试再次保存资产。
+继续：仅跳过保存该资产。
+[2023.07.09-11.04.50:212][367]EditorErrors: New page: 保存输出
+[2023.07.09-11.04.50:212][367]EditorErrors: Warning: Can't save ../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.04.50:267][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.35 sec (total: 36.1 sec)
+[2023.07.09-11.04.51:924][538]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.04.51:928][538]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.04.53:248][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.07.09-11.04.57:700][691]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.04.59:429][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.09-11.05.00:829][873]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.09-11.05.00:864][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.09-11.05.00:894][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.07.09-11.05.00:925][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.07.09-11.05.02:566][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.07.09-11.05.03:411][ 65]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.05.03:415][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.05.03:461][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset" SILENT=true
+[2023.07.09-11.05.03:487][ 65]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.05.03:609][ 65]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.05.03:609][ 65]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.05.03:609][ 65]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.05.03:609][ 65]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.05.03:609][ 65]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.05.03:609][ 65]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.05.03:609][ 65]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.05.03:737][ 65]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.05.03:737][ 65]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.05.03:737][ 65]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.05.03:737][ 65]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.05.03:737][ 65]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.05.03:737][ 65]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.05.04:813][ 65]LogSlate: Window '消息' being destroyed
+[2023.07.09-11.05.04:816][ 65]Message dialog closed, result: Cancel, title: 消息, text: 无法保存资产“/Game/Player/BP_Player”（BP_Player.uasset）。
+
+取消：停止保存所有资产并返回编辑器。
+重试：尝试再次保存资产。
+继续：仅跳过保存该资产。
+[2023.07.09-11.05.04:820][ 65]EditorErrors: New page: 保存输出
+[2023.07.09-11.05.04:820][ 65]EditorErrors: Warning: Can't save ../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.05.04:879][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.46 sec (total: 37.5 sec)
+[2023.07.09-11.05.06:047][188]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.05.06:051][188]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.05.24:546][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.07.09-11.05.25:940][350]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.05.29:370][744]LogViewport: Scene viewport resized to 1118x627, mode Windowed.
+[2023.07.09-11.05.29:399][746]LogViewport: Scene viewport resized to 1094x627, mode Windowed.
+[2023.07.09-11.05.29:434][748]LogViewport: Scene viewport resized to 1043x627, mode Windowed.
+[2023.07.09-11.05.29:463][750]LogViewport: Scene viewport resized to 987x627, mode Windowed.
+[2023.07.09-11.05.29:493][752]LogViewport: Scene viewport resized to 926x627, mode Windowed.
+[2023.07.09-11.05.29:524][754]LogViewport: Scene viewport resized to 889x627, mode Windowed.
+[2023.07.09-11.05.29:554][756]LogViewport: Scene viewport resized to 873x627, mode Windowed.
+[2023.07.09-11.05.29:915][798]LogViewport: Scene viewport resized to 874x627, mode Windowed.
+[2023.07.09-11.05.29:954][800]LogViewport: Scene viewport resized to 892x627, mode Windowed.
+[2023.07.09-11.05.29:989][802]LogViewport: Scene viewport resized to 920x627, mode Windowed.
+[2023.07.09-11.05.30:017][804]LogViewport: Scene viewport resized to 954x627, mode Windowed.
+[2023.07.09-11.05.30:045][806]LogViewport: Scene viewport resized to 977x627, mode Windowed.
+[2023.07.09-11.05.30:073][808]LogViewport: Scene viewport resized to 986x627, mode Windowed.
+[2023.07.09-11.05.30:201][822]LogViewport: Scene viewport resized to 982x627, mode Windowed.
+[2023.07.09-11.05.30:229][824]LogViewport: Scene viewport resized to 975x627, mode Windowed.
+[2023.07.09-11.05.30:261][826]LogViewport: Scene viewport resized to 962x627, mode Windowed.
+[2023.07.09-11.05.30:281][827]LogViewport: Scene viewport resized to 959x627, mode Windowed.
+[2023.07.09-11.05.36:693][567]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Player/Animation/Ani_Chara_Run.Ani_Chara_Run
+[2023.07.09-11.05.36:694][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.09-11.05.36:825][567]LogViewport: Scene viewport resized to 1526x769, mode Windowed.
+[2023.07.09-11.05.39:817][885]LogSlate: Window 'Ani_Chara_Run' being destroyed
+[2023.07.09-11.05.39:822][885]LogSlate: Window 'Ani_Chara_Run' being destroyed
+[2023.07.09-11.05.39:825][885]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.07.09-11.05.39:825][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.09-11.05.44:270][398]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.05.44:326][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset" SILENT=true
+[2023.07.09-11.05.44:353][398]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.05.44:476][398]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.05.44:476][398]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.05.44:476][398]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.05.44:476][398]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.05.44:476][398]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.05.44:476][398]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.05.44:476][398]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.05.44:602][398]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.05.44:602][398]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.05.44:602][398]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.05.44:602][398]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.05.44:602][398]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.05.44:602][398]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.06.21:084][398]LogSlate: Window '消息' being destroyed
+[2023.07.09-11.06.21:088][398]Message dialog closed, result: Cancel, title: 消息, text: 无法保存资产“/Game/Player/BP_Player”（BP_Player.uasset）。
+
+取消：停止保存所有资产并返回编辑器。
+重试：尝试再次保存资产。
+继续：仅跳过保存该资产。
+[2023.07.09-11.06.21:095][398]EditorErrors: New page: 保存输出
+[2023.07.09-11.06.21:095][398]EditorErrors: Warning: Can't save ../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.06.21:132][398]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.8 sec (total: 1:14 min)
+[2023.07.09-11.07.04:722][735]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.07.04:733][735]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.07.51:451][272]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0.Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.07.51:452][272]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.09-11.07.51:558][272]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2023.07.09-11.08.06:827][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.08.06:875][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_0.uasset" SILENT=true
+[2023.07.09-11.08.06:877][596]LogSavePackage: Moving output files for package: /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.08.06:877][596]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Ani_Chara_Squart_1_Sprite_0453AC5754390040B639C10920000CD5A.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_0.uasset'
+[2023.07.09-11.08.06:883][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 1:14 min)
+[2023.07.09-11.08.06:888][596]AssetCheck: New page: 资产保存：Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.08.06:888][596]LogContentValidation: Display: 正在验证/Script/Paper2D.PaperSprite /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0.Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.08.08:013][714]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.08.08:057][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_0.uasset" SILENT=true
+[2023.07.09-11.08.08:058][714]LogSavePackage: Moving output files for package: /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.08.08:059][714]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Ani_Chara_Squart_1_Sprite_003B3D5FD4D6238FCB2DBC8A52B8060F0.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_0.uasset'
+[2023.07.09-11.08.08:063][714]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 1:14 min)
+[2023.07.09-11.08.08:068][714]AssetCheck: New page: 资产保存：Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.08.08:068][714]LogContentValidation: Display: 正在验证/Script/Paper2D.PaperSprite /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0.Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.09.02:297][260]LogSlate: Window 'Ani_Chara_Squart_1_Sprite_0' being destroyed
+[2023.07.09-11.09.02:307][260]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.07.09-11.09.02:307][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.09-11.09.08:286][894]LogViewport: Scene viewport resized to 827x697, mode Windowed.
+[2023.07.09-11.09.08:339][895]LogViewport: Scene viewport resized to 722x697, mode Windowed.
+[2023.07.09-11.09.11:972][293]LogSlate: Window '提取sprite' being destroyed
+[2023.07.09-11.09.16:604][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.07.09-11.09.28:859][842]LogSlate: Window '替换引用？' being destroyed
+[2023.07.09-11.09.28:862][842]Message dialog closed, result: Ok, title: 替换引用？, text: 此操作将使用Ani_Chara_Squart_1_Sprite_1替换对待删除资产的所有引用，然后将它们删除。
+
+确定进行此操作吗？
+[2023.07.09-11.09.28:862][842]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.09-11.09.28:941][842]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.07.09-11.09.28:941][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.09-11.09.28:989][842]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.07.09-11.09.28:989][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.09-11.09.29:386][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.07.09-11.09.31:619][842]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.09.31:625][842]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.09.31:680][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Animation/Ani_Chara_Squart" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart.uasset" SILENT=true
+[2023.07.09-11.09.31:680][842]LogSavePackage: Moving output files for package: /Game/Player/Animation/Ani_Chara_Squart
+[2023.07.09-11.09.31:681][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Ani_Chara_Squart240DB4AA4FCA5BF17C82FA8B1AF6561F.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart.uasset'
+[2023.07.09-11.09.31:681][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_0.uasset" SILENT=true
+[2023.07.09-11.09.31:682][842]LogSavePackage: Moving output files for package: /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.09.31:682][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Ani_Chara_Squart_1_Sprite_048B494894192801FC4999A8BBAA943A7.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_0.uasset'
+[2023.07.09-11.09.31:682][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor/Item/BP_Item" FILE="../../../../../Project/Project_Gamjam202307/Content/Actor/Item/BP_Item.uasset" SILENT=true
+[2023.07.09-11.09.31:692][842]LogSavePackage: Moving output files for package: /Game/Actor/Item/BP_Item
+[2023.07.09-11.09.31:692][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/BP_Item6DF489044B37CFEC674C13910EFB85E1.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Actor/Item/BP_Item.uasset'
+[2023.07.09-11.09.31:693][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/E/NV/P3LLXM8PZHCUNMYO99YC3D
+[2023.07.09-11.09.31:694][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/P3LLXM8PZHCUNMYO99YC3D6B37A46B491978CCBE9AEEBA3BC2108A.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/E/NV/P3LLXM8PZHCUNMYO99YC3D.uasset'
+[2023.07.09-11.09.31:695][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/C/LX/MVAY9ZPTB7VLK3JTE3C4O5
+[2023.07.09-11.09.31:695][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/MVAY9ZPTB7VLK3JTE3C4O5FDB65AD6491111C166E34F8CE25936A7.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/C/LX/MVAY9ZPTB7VLK3JTE3C4O5.uasset'
+[2023.07.09-11.09.31:696][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/E/5P/DTASRKXK7TCS2UJPWQMCTU
+[2023.07.09-11.09.31:697][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/DTASRKXK7TCS2UJPWQMCTU256B31B749EF485AB15F14ACF0052616.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/E/5P/DTASRKXK7TCS2UJPWQMCTU.uasset'
+[2023.07.09-11.09.31:698][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/0/AA/4BVM4RQBME13OIVB8QW39N
+[2023.07.09-11.09.31:698][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/4BVM4RQBME13OIVB8QW39N4B44EE6240266C06EBFB0F8105B61456.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/0/AA/4BVM4RQBME13OIVB8QW39N.uasset'
+[2023.07.09-11.09.31:700][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/3/UH/TZZGUXPICF0JW7TGORCHFL
+[2023.07.09-11.09.31:700][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/TZZGUXPICF0JW7TGORCHFLCA8313E04CEC192FE86C13BE2AA58180.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/3/UH/TZZGUXPICF0JW7TGORCHFL.uasset'
+[2023.07.09-11.09.31:701][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/8/RB/ONTRWMD8VW56ARIN61Z794
+[2023.07.09-11.09.31:702][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/ONTRWMD8VW56ARIN61Z794DBBB0B3C42AB238FFC9EE5A7D792E983.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/8/RB/ONTRWMD8VW56ARIN61Z794.uasset'
+[2023.07.09-11.09.31:703][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/C/8L/26IQLEYRKITROPP4I0XDKR
+[2023.07.09-11.09.31:703][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/26IQLEYRKITROPP4I0XDKR459CC3654329BC1B022BA5A7927BAE7C.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/C/8L/26IQLEYRKITROPP4I0XDKR.uasset'
+[2023.07.09-11.09.31:705][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/D/MR/4UHYHOFP67UZH31MFN9S0T
+[2023.07.09-11.09.31:705][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/4UHYHOFP67UZH31MFN9S0TCF4B90F4421596FBB3B87C8FA061F1C4.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/D/MR/4UHYHOFP67UZH31MFN9S0T.uasset'
+[2023.07.09-11.09.31:706][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/2/CR/WOT6LHGBXBOUKUED25XIL9
+[2023.07.09-11.09.31:707][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/WOT6LHGBXBOUKUED25XIL93264D62B48B832DE7E6D9F86D25BF155.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/2/CR/WOT6LHGBXBOUKUED25XIL9.uasset'
+[2023.07.09-11.09.31:707][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actor/Portal/BP_Portal" FILE="../../../../../Project/Project_Gamjam202307/Content/Actor/Portal/BP_Portal.uasset" SILENT=true
+[2023.07.09-11.09.31:717][842]LogSavePackage: Moving output files for package: /Game/Actor/Portal/BP_Portal
+[2023.07.09-11.09.31:717][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/BP_Portal23656263447139A34F468981A807E2DD.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Actor/Portal/BP_Portal.uasset'
+[2023.07.09-11.09.31:719][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/9/VH/0SSX4KC4Y3D2200MZA2KYV
+[2023.07.09-11.09.31:719][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/0SSX4KC4Y3D2200MZA2KYV92C02ED14176A8A25FB734ABB721EDBD.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/9/VH/0SSX4KC4Y3D2200MZA2KYV.uasset'
+[2023.07.09-11.09.31:720][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/E/F0/UGK1ES09Q4T5VW3AC8M1F3
+[2023.07.09-11.09.31:720][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/UGK1ES09Q4T5VW3AC8M1F30E1437D547CB1B1C94F59CBCD1B36F0E.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/E/F0/UGK1ES09Q4T5VW3AC8M1F3.uasset'
+[2023.07.09-11.09.31:722][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/0/1G/RUDNAZPK7RFCIEOKNOM5AF
+[2023.07.09-11.09.31:722][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/RUDNAZPK7RFCIEOKNOM5AF687AE7A646F96B3ED7B7C1A2A6559F94.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/0/1G/RUDNAZPK7RFCIEOKNOM5AF.uasset'
+[2023.07.09-11.09.31:723][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/E/R5/6C41NLUTIEUZWZN9FBY3IF
+[2023.07.09-11.09.31:724][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/6C41NLUTIEUZWZN9FBY3IFDE711E1E48B26BE39E833B9B42DFB2D2.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/E/R5/6C41NLUTIEUZWZN9FBY3IF.uasset'
+[2023.07.09-11.09.31:725][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/4/I3/ZD7DV625BHWZFMH93QHYAR
+[2023.07.09-11.09.31:725][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/ZD7DV625BHWZFMH93QHYAR0F7B263041A0A2A4951FC1B35B16B9B4.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/4/I3/ZD7DV625BHWZFMH93QHYAR.uasset'
+[2023.07.09-11.09.31:727][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/E/P8/O7SD9202KXNOZIO2R4Q9TD
+[2023.07.09-11.09.31:727][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/O7SD9202KXNOZIO2R4Q9TDEA6E45804E5D150C2B657096E3311886.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/E/P8/O7SD9202KXNOZIO2R4Q9TD.uasset'
+[2023.07.09-11.09.31:728][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/C/C0/R26QQBRK4XBLRVH0AJRS6O
+[2023.07.09-11.09.31:728][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/R26QQBRK4XBLRVH0AJRS6O7046D4694F2E7CD678799BAEFCAA5702.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/C/C0/R26QQBRK4XBLRVH0AJRS6O.uasset'
+[2023.07.09-11.09.31:730][842]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/Map_Main/A/LJ/ODTQI6D1KHPZWLRKBYQWRC
+[2023.07.09-11.09.31:730][842]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/ODTQI6D1KHPZWLRKBYQWRC9657FDC94B1784813BEF26B70D9B3849.tmp' to '../../../../../Project/Project_Gamjam202307/Content/__ExternalActors__/Maps/Map_Main/A/LJ/ODTQI6D1KHPZWLRKBYQWRC.uasset'
+[2023.07.09-11.09.31:745][842]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 1:14 min)
+[2023.07.09-11.09.31:752][842]AssetCheck: New page: 资产保存：多个资产
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Script/Engine.Blueprint /Game/Actor/Item/BP_Item.BP_Item
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Script/Engine.Blueprint /Game/Actor/Portal/BP_Portal.BP_Portal
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Script/Paper2D.PaperFlipbook /Game/Player/Animation/Ani_Chara_Squart.Ani_Chara_Squart
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_MeetingRoom_1.BP_Portal_MeetingRoom_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_MeetingRoom_1_C_UAID_A8A159B5737FBF9301_1766930011
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Cloth_1.BP_Item_Cloth_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Cloth_1_C_UAID_A8A159B5737FC69301_1725996240
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Hair_3.BP_Item_Hair_3_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Hair_3_C_UAID_A8A159B5737FC69301_1780316245
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Cloth_2.BP_Item_Cloth_2_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Cloth_2_C_UAID_A8A159B5737FC69301_1747692241
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_Street_1.BP_Portal_Street_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_Street_1_C_UAID_A8A159B5737FC09301_1077953191
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Cloth_3.BP_Item_Cloth_3_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Cloth_3_C_UAID_A8A159B5737FC69301_1756661242
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_Bar_1.BP_Portal_Bar_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_Bar_1_C_UAID_A8A159B5737FC09301_1197188192
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_WorkRoom.BP_Portal_WorkRoom_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_WorkRoom_C_UAID_A8A159B5737FBF9301_1936607013
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Hair_1.BP_Item_Hair_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Hair_1_C_UAID_A8A159B5737FC69301_1777162243
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_VIP.BP_Portal_VIP_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_VIP_C_UAID_A8A159B5737FC09301_1258991194
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Book_2.BP_Item_Book_2_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Book_2_C_UAID_A8A159B5737FC69301_1788361247
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Hair_2.BP_Item_Hair_2_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Hair_2_C_UAID_A8A159B5737FC69301_1778748244
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Book_3.BP_Item_Book_3_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Book_3_C_UAID_A8A159B5737FC69301_1789871248
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_Bar_3.BP_Portal_Bar_3_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_Bar_3_C_UAID_A8A159B5737FC09301_1904209195
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Item/BP_Item_Book_1.BP_Item_Book_1_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Item_Book_1_C_UAID_A8A159B5737FC69301_1786118246
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_Street_2.BP_Portal_Street_2_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_Street_2_C_UAID_A8A159B5737FBF9301_2109904014
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Game/Actor/Portal/BP_Portal_MeetingRoom_2.BP_Portal_MeetingRoom_2_C /Game/Maps/Map_Main.Map_Main:PersistentLevel.BP_Portal_MeetingRoom_2_C_UAID_A8A159B5737FBF9301_1826600012
+[2023.07.09-11.09.31:752][842]LogContentValidation: Display: 正在验证/Script/CoreUObject.ObjectRedirector /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_0.Ani_Chara_Squart_1_Sprite_0
+[2023.07.09-11.09.33:716][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.07.09-11.09.35:218][ 46]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.09.35:224][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.09.35:274][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Animation/Ani_Chara_Squart_1_Sprite_1" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_1.uasset" SILENT=true
+[2023.07.09-11.09.35:275][ 46]LogSavePackage: Moving output files for package: /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_1
+[2023.07.09-11.09.35:275][ 46]LogSavePackage: Moving '../../../../../Project/Project_Gamjam202307/Saved/Ani_Chara_Squart_1_Sprite_164076E4A48A79AF1562553B02D241CAF.tmp' to '../../../../../Project/Project_Gamjam202307/Content/Player/Animation/Ani_Chara_Squart_1_Sprite_1.uasset'
+[2023.07.09-11.09.35:276][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset" SILENT=true
+[2023.07.09-11.09.35:302][ 46]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.09.35:391][ 46]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.09.35:391][ 46]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.09.35:391][ 46]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.09.35:391][ 46]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.09.35:391][ 46]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.09.35:391][ 46]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.09.35:391][ 46]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.09.35:483][ 46]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.09.35:483][ 46]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.09.35:483][ 46]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.09.35:483][ 46]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.09.35:483][ 46]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.09.35:484][ 46]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.09.37:606][ 46]LogSlate: Window '消息' being destroyed
+[2023.07.09-11.09.37:609][ 46]Message dialog closed, result: Continue, title: 消息, text: 无法保存资产“/Game/Player/BP_Player”（BP_Player.uasset）。
+
+取消：停止保存所有资产并返回编辑器。
+重试：尝试再次保存资产。
+继续：仅跳过保存该资产。
+[2023.07.09-11.09.37:615][ 46]EditorErrors: New page: 保存输出
+[2023.07.09-11.09.37:615][ 46]EditorErrors: Warning: Can't save ../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.09.38:725][ 46]LogSlate: Window '保存包失败' being destroyed
+[2023.07.09-11.09.38:759][ 46]Message dialog closed, result: Ok, title: 保存包失败, text: 不能正确保存以下资产：
+/Game/Player/BP_Player
+[2023.07.09-11.09.38:759][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.53 sec (total: 1:18 min)
+[2023.07.09-11.09.38:763][ 46]AssetCheck: New page: 资产保存：Ani_Chara_Squart_1_Sprite_1
+[2023.07.09-11.09.38:763][ 46]LogContentValidation: Display: 正在验证/Script/Paper2D.PaperSprite /Game/Player/Animation/Ani_Chara_Squart_1_Sprite_1.Ani_Chara_Squart_1_Sprite_1
+[2023.07.09-11.09.39:929][160]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.09.39:935][160]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.09.40:946][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.07.09-11.09.42:582][273]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.10.01:473][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.07.09-11.10.02:891][521]LogSlate: Window '保存内容' being destroyed
+[2023.07.09-11.10.02:897][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.09-11.10.02:939][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset" SILENT=true
+[2023.07.09-11.10.02:965][521]LogSavePackage: Warning: 
+Referencers of Level /Game/Maps/Map_Main.Map_Main:PersistentLevel:
+[2023.07.09-11.10.03:053][521]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.10.03:053][521]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.10.03:053][521]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.10.03:053][521]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.10.03:053][521]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.10.03:053][521]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.10.03:053][521]LogSavePackage: Warning: 
+Referencers of World /Game/Maps/Map_Main.Map_Main:
+[2023.07.09-11.10.03:146][521]LogSavePackage: Warning: 	BP_Player_C /Game/Player/BP_Player.Default__BP_Player_C (1 refs)
+[2023.07.09-11.10.03:146][521]LogSavePackage: Warning: 		0) ObjectProperty /Game/Player/BP_Player.BP_Player_C:BP_NPC_MadamE_1_C_UAID_A8A159B5737F159401_1223931143_ExecuteUbergraph_BP_Player_RefProperty
+[2023.07.09-11.10.03:146][521]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_0 (1 refs)
+[2023.07.09-11.10.03:146][521]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.10.03:146][521]LogSavePackage: Warning: 	K2Node_Literal /Game/Player/BP_Player.BP_Player:Dialog.K2Node_Literal_4 (1 refs)
+[2023.07.09-11.10.03:146][521]LogSavePackage: Warning: 		0) ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef
+[2023.07.09-11.10.04:687][521]LogSlate: Window '消息' being destroyed
+[2023.07.09-11.10.04:691][521]Message dialog closed, result: Continue, title: 消息, text: 无法保存资产“/Game/Player/BP_Player”（BP_Player.uasset）。
+
+取消：停止保存所有资产并返回编辑器。
+重试：尝试再次保存资产。
+继续：仅跳过保存该资产。
+[2023.07.09-11.10.04:696][521]EditorErrors: New page: 保存输出
+[2023.07.09-11.10.04:696][521]EditorErrors: Warning: Can't save ../../../../../Project/Project_Gamjam202307/Content/Player/BP_Player.uasset: Graph is linked to object World /Game/Maps/Map_Main.Map_Main (ObjectRef) in external map
+[2023.07.09-11.10.06:090][521]LogSlate: Window '保存包失败' being destroyed
+[2023.07.09-11.10.06:126][521]Message dialog closed, result: Cancel, title: 保存包失败, text: 不能正确保存以下资产：
+/Game/Player/BP_Player
+[2023.07.09-11.10.06:126][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.22 sec (total: 1:21 min)
+[2023.07.09-11.10.07:621][674]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.10.07:626][674]LogSlate: Window '消息日志' being destroyed
+[2023.07.09-11.10.35:496][ 11]LogContentBrowser: Attempting asset rename: Ani_Chara_Squart_1_Sprite_1 -> Ani_Chara_Squart_1_Sprite_1
+[2023.07.09-11.10.39:039][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.07.09-11.10.40:245][413]LogSlate: Window '保存内容' being destroyed
